@@ -17,9 +17,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from video.views import VideoAPI
+from video.views import VideoViewSet
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('videos', VideoAPI.as_view()),
+    path('videos', VideoViewSet.as_view({'get': 'list', 'post': 'create', 'delete': 'destroy', 'put': 'update', 'patch': 'partial_update',})),
 ]

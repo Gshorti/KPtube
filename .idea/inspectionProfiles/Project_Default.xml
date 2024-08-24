@@ -5,7 +5,7 @@
       <option name="ignoredPackages">
         <value>
           <list size="1">
-            <item index="0" class="java.lang.String" itemvalue="seaborn" />
+            <item index="0" class="java.lang.String" itemvalue="huggingface_hub" />
           </list>
         </value>
       </option>
@@ -13,7 +13,7 @@
     <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="ignoredIdentifiers">
         <list>
-          <option value="store.models.Product.*" />
+          <option value="app1.models.SalesOrder.objects" />
         </list>
       </option>
     </inspection_tool>
