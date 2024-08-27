@@ -9,6 +9,7 @@ class Video(models.Model):
     views = models.IntegerField(default=0)
     video = models.FileField(upload_to='videos/')
     category = models.ForeignKey('category.Category', on_delete=models.CASCADE, null=True)
+    owner = models.ForeignKey('users.User', on_delete=models.CASCADE, null=True)
 
     def __str__(self):
         return self.name
