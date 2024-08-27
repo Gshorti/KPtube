@@ -7,7 +7,8 @@ class Video(models.Model):
     description = models.TextField()
     likes = models.IntegerField(default=0)
     views = models.IntegerField(default=0)
-    video = models.FileField(upload_to='videos/')
+    video = models.FileField(upload_to='videos_db/videos')
+    preview = models.FileField(upload_to='videos_db/previews', null=True)
     category = models.ForeignKey('category.Category', on_delete=models.CASCADE, null=True)
     owner = models.ForeignKey('users.User', on_delete=models.CASCADE, null=True)
 
