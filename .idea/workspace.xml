@@ -4,16 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd528586-553e-4143-a6af-ebd528aa5393" name="Changes" comment="gg">
+    <list default="true" id="fd528586-553e-4143-a6af-ebd528aa5393" name="Changes" comment="Добавил категории">
+      <change afterPath="$PROJECT_DIR$/KpTube/category/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KpTube/KpTube/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/KpTube/KpTube/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KpTube/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/KpTube/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KpTube/video/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/KpTube/video/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KpTube/KpTube/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/KpTube/KpTube/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KpTube/category/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/KpTube/category/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -101,11 +108,20 @@
       <option name="project" value="LOCAL" />
       <updated>1724530278737</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Добавил категории">
+      <option name="closed" value="true" />
+      <created>1724758052741</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724758052742</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gg" />
-    <option name="LAST_COMMIT_MESSAGE" value="gg" />
+    <MESSAGE value="Добавил категории" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил категории" />
   </component>
 </project>
