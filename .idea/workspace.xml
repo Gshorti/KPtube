@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd528586-553e-4143-a6af-ebd528aa5393" name="Changes" comment="Сделана фильтрация по категориям для видео.">
-      <change beforePath="$PROJECT_DIR$/KpTube/video/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/KpTube/video/views.py" afterDir="false" />
+    <list default="true" id="fd528586-553e-4143-a6af-ebd528aa5393" name="Changes" comment="Сделан поиск по имени видео и описанию.">
+      <change afterPath="$PROJECT_DIR$/KpTube/users/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KpTube/KpTube/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/KpTube/KpTube/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KpTube/KpTube/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/KpTube/KpTube/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KpTube/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/KpTube/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724758958571</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Сделан поиск по имени видео и описанию.">
+      <option name="closed" value="true" />
+      <created>1724759603719</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724759603719</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -137,6 +149,7 @@
     <MESSAGE value="Добавил категории" />
     <MESSAGE value="Теперь фронтэндер может просматривать категории GET запросом." />
     <MESSAGE value="Сделана фильтрация по категориям для видео." />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделана фильтрация по категориям для видео." />
+    <MESSAGE value="Сделан поиск по имени видео и описанию." />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделан поиск по имени видео и описанию." />
   </component>
 </project>
